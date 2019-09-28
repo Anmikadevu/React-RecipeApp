@@ -8,6 +8,7 @@ export class Search extends Component {
 
                 <input className="search-bar" type="text" />
                 <button className="search-button" type="submit">Search</button>
+                <input></input>
             </form>
 
         );
