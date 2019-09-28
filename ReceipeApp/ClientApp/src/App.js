@@ -10,10 +10,13 @@ export default class App extends Component {
 
     render() {
         return (
+              <div>
 
-            <Route exact path='/' component={FetchData} />
 
-
+              <Route exact path='/' component={FetchData} />
+                <Route exact path='/' component={FetchData} />
+              </div>
+           
         )
     }
 }
